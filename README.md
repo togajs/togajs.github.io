@@ -1,3 +1,3 @@
 # TogaJS Website
 
-See gh-pages branch.
+http://togajs.github.io
