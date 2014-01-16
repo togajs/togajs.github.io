@@ -5,22 +5,40 @@
     <link href="http://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet" type="text/css" />
     <title>Toga - Clothe your code.</title>
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body, a, h1 {
+            color: #eee;
+        }
         body {
             background: #333;
-            color: #eee;
-            font: normal 14px/1 sans-serif;
-            padding: 3em 6em;
+            padding: 6em;
         }
         a {
-            color: #eee;
+            text-decoration: none;
         }
         h1 {
-            font: normal 72px/1 'Cinzel Decorative', cursive;
+            font-size: 0;
+        }
+        h1:after {
+            content: 'togA';
+            font: normal 128px/1 'Cinzel Decorative', cursive;
+        }
+        p {
+            color: #eee;
+            font: normal 12px/1 sans-serif;
+            letter-spacing: 2px;
+            padding: 0 5px 10px;
+            text-transform: uppercase;
         }
     </style>
 </head>
 <body>
-    <h1>ToGa</h1>
+    <h1>Toga</h1>
+    <p>Clothe your code</p>
     <p><a href="https://github.com/togajs">View on GitHub</a></p>
 </body>
 </html>
