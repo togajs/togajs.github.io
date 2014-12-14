@@ -1,0 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300italic,300);
+*{box-sizing:border-box;margin:0;padding:0}
+html{font:300 10vmin/1.618 'Open Sans Condensed',sans-serif}
+@media (min-width:600px),(orientation:landscape){html{font-size:6.18vmin}}
+body{background-color:hsla(100,75%,75%,1);color:hsla(0,0%,20%,1)}
+h1{font:700 1.618em/1 'Open Sans Condensed',sans-serif}
+a{color:inherit;text-decoration:none}
+svg{width:9em}
+.page{-webkit-align-items:center;-ms-flex-align:center;align-items:center;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100vh;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:relative;text-align:center;width:100vw;z-index:1}
+.github{background-color:hsla(0,0%,20%,1);color:hsla(0,0%,95%,1);font-size:.809rem;height:1.618em;line-height:1.382em;position:fixed;right:-5em;text-align:center;top:-.809em;-webkit-transform:translate(-1.618em,1.618em) rotate(45deg);transform:translate(-1.618em,1.618em) rotate(45deg);width:10em;z-index:2}

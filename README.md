@@ -1,3 +1,3 @@
 # TogaJS Website
 
-http://togajs.github.io
+http://togajs.com
