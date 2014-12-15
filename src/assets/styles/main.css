@@ -1,13 +1,13 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300italic,300');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-    font: 300 10vmin/1.618 'Open Sans Condensed', sans-serif;
+	font: 300 10vmin/1.618 'Open Sans Condensed', sans-serif;
 }
 
 @media (min-width: 600px), (orientation: landscape) {
@@ -17,44 +17,44 @@ html {
 }
 
 body {
-    background-color: hsla(100, 75%, 75%, 1);
-    color: hsla(0, 0%, 20%, 1);
+	background-color: hsla(100, 75%, 75%, 1);
+	color: hsla(0, 0%, 20%, 1);
 }
 
 h1 {
-    font: 700 1.618em/1 'Open Sans Condensed', sans-serif;
+	font: 700 1.618em/1 'Open Sans Condensed', sans-serif;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 svg {
-    width: 9em;
+	width: 9em;
 }
 
 .page {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    width: 100vw;
-    z-index: 1;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	width: 100vw;
+	z-index: 1;
 }
 
 .github {
-    background-color: hsla(0, 0%, 20%, 1);
-    color: hsla(0, 0%, 95%, 1);
-    font-size: 0.809rem;
-    height: 1.618em;
-    position: fixed;
-    right: -5em;
-    text-align: center;
-    top: -0.809em;
-    transform: translate(-1.618em, 1.618em) rotate(45deg);
-    width: 10em;
-    z-index: 2;
+	background-color: hsla(0, 0%, 20%, 1);
+	color: hsla(0, 0%, 95%, 1);
+	font-size: 0.809rem;
+	height: 1.618em;
+	position: fixed;
+	right: -5em;
+	text-align: center;
+	top: -0.809em;
+	transform: translate(-1.618em, 1.618em) rotate(45deg);
+	width: 10em;
+	z-index: 2;
 }
