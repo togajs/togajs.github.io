@@ -2,9 +2,12 @@
 *{box-sizing:border-box;margin:0;padding:0}
 html{font:300 10vmin/1.618 'Open Sans Condensed',sans-serif}
 @media (min-width:600px),(orientation:landscape){html{font-size:6.18vmin}}
-body{background-color:hsla(100,75%,75%,1);color:hsla(0,0%,20%,1)}
+body{background-color:#afef8f;color:#333}
 h1{font:700 1.618em/1 'Open Sans Condensed',sans-serif}
 a{color:inherit;text-decoration:none}
-svg{height:7.5em;width:7.5em}
 .page{-webkit-align-items:center;-ms-flex-align:center;align-items:center;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100vh;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:relative;text-align:center;width:100vw;z-index:1}
-.github{background-color:hsla(0,0%,20%,1);color:hsla(0,0%,95%,1);font-size:.618rem;height:1.618em;position:fixed;right:-5em;text-align:center;top:-.809em;-webkit-transform:translate(-1.618em,1.618em) rotate(45deg);transform:translate(-1.618em,1.618em) rotate(45deg);width:10em;z-index:2}
+.logo{height:6em;margin-bottom:.618em;width:6em}
+.logo-lt{fill:#fff}
+.logo-md{fill:#ccc}
+.logo-dk{fill:#333}
+.github{background-color:#333;color:#f2f2f2;font-size:.618rem;height:1.618em;position:fixed;right:-5em;text-align:center;top:-.809em;-webkit-transform:translate(-1.618em,1.618em) rotate(45deg);transform:translate(-1.618em,1.618em) rotate(45deg);width:10em;z-index:2}
