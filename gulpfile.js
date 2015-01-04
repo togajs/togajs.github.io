@@ -1,12 +1,8 @@
 'use strict';
 
 var gulp = require('gulp'),
-	base = {
-		base: './src/'
-	},
-	config = {
-		isWatching: false
-	};
+	base = { base: './src/' },
+	config = { isWatching: false };
 
 gulp.task('default', ['lint', 'markup', 'styles', 'copy']);
 
@@ -70,7 +66,7 @@ gulp.task('styles', function () {
 
 gulp.task('copy', function () {
 	return gulp
-		.src('./src/{CNAME,LICENSE,README.md}', base)
+		.src('./src/{CNAME,LICENSE,README.md,assets/images/**}', base)
 		.pipe(gulp.dest('./web/'));
 });
 
@@ -86,6 +82,10 @@ gulp.task('watch', function () {
 
 	watch('./src/**/*.css', function () {
 		gulp.start('styles');
+	});
+
+	watch({ glob: './src/assets/images/**/*.*' }, function () {
+		gulp.start('copy');
 	});
 
 	watch('./web/**/*.*').pipe(lr());

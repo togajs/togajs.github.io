@@ -17,8 +17,8 @@ html {
 }
 
 body {
-	background-color: hsla(100, 75%, 75%, 1);
-	color: hsla(0, 0%, 20%, 1);
+	background-color: hsl(100, 75%, 75%);
+	color: hsl(0, 0%, 20%);
 }
 
 h1 {
@@ -28,11 +28,6 @@ h1 {
 a {
 	color: inherit;
 	text-decoration: none;
-}
-
-svg {
-	height: 7.5em;
-	width: 7.5em;
 }
 
 .page {
@@ -46,9 +41,27 @@ svg {
 	z-index: 1;
 }
 
+.logo {
+	height: 6em;
+	margin-bottom: 0.618em;
+	width: 6em;
+}
+
+.logo-lt {
+	fill: hsl(0, 0%, 100%);
+}
+
+.logo-md {
+	fill: hsl(0, 0%, 80%);
+}
+
+.logo-dk {
+	fill: hsl(0, 0%, 20%);
+}
+
 .github {
-	background-color: hsla(0, 0%, 20%, 1);
-	color: hsla(0, 0%, 95%, 1);
+	background-color: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 95%);
 	font-size: 0.618rem;
 	height: 1.618em;
 	position: fixed;
