@@ -1,4 +1,4 @@
-# TogaJS Website
+# toga.js website
 
 http://togajs.com
 
