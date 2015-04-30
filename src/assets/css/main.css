@@ -5,31 +5,26 @@
 }
 
 html {
-	font: 300 10vmin/1.618 'Open Sans Condensed', arial, sans-serif;
+	font: 100 5vh/1.618 'Josefin Sans', arial, sans-serif;
 }
 
-@media (min-width: 600px), (orientation: landscape) {
+@media (max-aspect-ratio: 2/3) {
 	html {
-		font-size: 6.18vmin;
+		font-size: 7.5vw;
 	}
 }
 
 body {
-	background-color: hsl(112, 32%, 67%);
-	background-image:
-		linear-gradient(-12deg, hsla(0, 70%, 60%, 0.8), hsla(120, 60%, 70%, 0.8)),
-		url(../images/trees.jpg);
-	background-position:
-		center bottom,
-		center bottom;
-	background-size:
-		cover,
-		cover;
+	background: hsl(112, 32%, 67%);
+	background:
+		linear-gradient(-12deg, hsla(346, 70%, 60%, 0.8), hsla(110, 60%, 70%, 0.8)) no-repeat scroll,
+		url(../img/trees.jpg) no-repeat fixed center bottom;
+	background-size: cover;
 	color: hsl(12, 100%, 98%);
 }
 
 h1 {
-	font: 700 1.618em/1 'Open Sans Condensed', arial, sans-serif;
+	font: 700 3em/1 'Josefin Slab', arial, sans-serif;
 }
 
 a {
@@ -50,7 +45,6 @@ a {
 
 .logo {
 	height: 6em;
-	margin-bottom: 0.618em;
 	width: 6em;
 }
 
