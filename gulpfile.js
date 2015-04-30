@@ -53,7 +53,7 @@ gulp.task('css', function () {
 
 gulp.task('copy', function () {
 	return gulp
-		.src('./src/{CNAME,LICENSE,README.md,assets/img/*.jpg}', base)
+		.src('./src/{CNAME,LICENSE,README.md,assets/img/*.jpg,favicon.ico}', base)
 		.pipe(gulp.dest('./web/'));
 });
 
