@@ -1,13 +1,13 @@
 .github,.page{text-align:center}
 *{box-sizing:border-box;margin:0;padding:0}
-html{font:300 10vmin/1.618 'Open Sans Condensed',arial,sans-serif}
-@media (min-width:600px),(orientation:landscape){html{font-size:6.18vmin}
+html{font:100 5vh/1.618 'Josefin Sans',arial,sans-serif}
+@media (max-aspect-ratio:2/3){html{font-size:7.5vw}
 }
-body{background-color:#97c58f;background-image:linear-gradient(-12deg,hsla(0,70%,60%,.8),hsla(120,60%,70%,.8)),url(../images/trees.jpg);background-position:center bottom,center bottom;background-size:cover,cover;color:#fff6f4}
-h1{font:700 1.618em/1 'Open Sans Condensed',arial,sans-serif}
+body{background:#97c58f;background:linear-gradient(-12deg,hsla(346,70%,60%,.8),hsla(110,60%,70%,.8))no-repeat,url(../img/trees.jpg)center bottom no-repeat fixed;background-size:cover;color:#fff6f4}
+h1{font:700 3em/1 'Josefin Slab',arial,sans-serif}
 a{color:inherit;text-decoration:none}
 .page{-webkit-align-items:center;-ms-flex-align:center;align-items:center;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100vh;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:relative;width:100vw;z-index:1}
-.logo{height:6em;margin-bottom:.618em;width:6em}
+.logo{height:6em;width:6em}
 .logo-lt{fill:#fff}
 .logo-md{fill:#ccc}
 .logo-dk{fill:#333}
