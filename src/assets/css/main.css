@@ -1,76 +1,9 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
+@import './base/vars.css';
+@import './base/elements.css';
 
-html {
-	font: 100 5vh/1.618 'Josefin Sans', arial, sans-serif;
-}
-
-@media (max-aspect-ratio: 2/3) {
-	html {
-		font-size: 7.5vw;
-	}
-}
-
-body {
-	background: hsl(112, 32%, 67%);
-	background:
-		linear-gradient(-12deg, hsla(346, 70%, 60%, 0.8), hsla(110, 60%, 70%, 0.8)) no-repeat scroll,
-		url(../img/trees.jpg) no-repeat fixed center bottom;
-	background-size: cover;
-	color: hsl(12, 100%, 98%);
-}
-
-h1 {
-	font: 700 3em/1 'Josefin Slab', arial, sans-serif;
-}
-
-a {
-	color: inherit;
-	text-decoration: none;
-}
-
-.page {
-	align-items: center;
-	display: flex;
-	height: 100vh;
-	justify-content: center;
-	position: relative;
-	text-align: center;
-	width: 100vw;
-	z-index: 1;
-}
-
-.logo {
-	height: 6em;
-	width: 6em;
-}
-
-.logo-lt {
-	fill: hsl(0, 0%, 100%);
-}
-
-.logo-md {
-	fill: hsl(0, 0%, 80%);
-}
-
-.logo-dk {
-	fill: hsl(0, 0%, 20%);
-}
-
-.github {
-	background-color: hsl(0, 0%, 20%);
-	color: hsl(0, 0%, 95%);
-	font-size: 0.618rem;
-	height: 1.618em;
-	position: fixed;
-	right: -5em;
-	text-align: center;
-	text-transform: lowercase;
-	top: -0.809em;
-	transform: translate(-1.618em, 1.618em) rotate(45deg);
-	width: 10em;
-	z-index: 2;
-}
+@import './modules/box.css';
+@import './modules/logo.css';
+@import './modules/pane.css';
+@import './modules/ribbon.css';
+@import './modules/txt.css';
+@import './modules/wysiwyg.css';

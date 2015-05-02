@@ -1,0 +1,14 @@
+:root {
+	--color-background: hsl(0, 0%, 100%);
+	--color-foreground: hsl(0, 0%, 20%);
+	--color-primary: hsla(110, 60%, 70%, 0.8);
+	--color-primary-dark: hsla(110, 60%, 50%, 0.8);
+	--color-accent: hsla(346, 70%, 60%, 0.8);
+
+	--font-display: 'Josefin Slab', arial, sans-serif;
+	--font-display-weight: 700;
+	--font-header: 'Josefin Sans', arial, sans-serif;
+	--font-header-weight: 300;
+	--font-text: 'Lato', arial, sans-serif;
+	--font-text-weight: 300;
+}

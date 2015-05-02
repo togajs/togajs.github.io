@@ -1,0 +1,17 @@
+.pane {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.pane_full {
+	height: 98vh;
+}
+
+.pane_half {
+	height: 49vh;
+}
+
+.pane-bd {
+	text-align: center;
+}

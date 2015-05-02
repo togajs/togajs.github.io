@@ -1,0 +1,16 @@
+.logo {
+	height: 6em;
+	width: 6em;
+}
+
+.logo-fill_lt {
+	fill: hsl(0, 0%, 100%);
+}
+
+.logo-fill_md {
+	fill: hsl(0, 0%, 80%);
+}
+
+.logo-fill_dk {
+	fill: hsl(0, 0%, 20%);
+}

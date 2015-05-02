@@ -1,0 +1,11 @@
+.ribbon {
+	background-color: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 95%);
+	position: fixed;
+	right: -5em;
+	text-align: center;
+	top: -0.809em;
+	transform: translate(-1.618em, 1.618em) rotate(45deg);
+	width: 10em;
+	z-index: 1;
+}

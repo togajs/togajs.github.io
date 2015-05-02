@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	color: inherit;
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: var(--font-text);
+   	font-size: 5vh;
+	font-weight: var(--font-text-weight);
+	line-height: 1.618;
+}
+
+@media (max-aspect-ratio: 2/3) {
+	html {
+		font-size: 7.5vw;
+	}
+}
+
+body {
+	background: var(--color-background);
+	color: var(--color-foreground);
+}
+
+a {
+	text-decoration: none;
+}

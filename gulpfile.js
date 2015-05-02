@@ -28,32 +28,22 @@ gulp.task('html', function () {
 });
 
 gulp.task('css', function () {
-	var autoprefixer = require('gulp-autoprefixer'),
-		inline = require('rework-plugin-inline'),
-		minify = require('gulp-minify-css'),
-		sourcemaps = require('gulp-sourcemaps'),
-		rework = require('gulp-rework'),
-		when = require('gulp-if');
+	var myth = require('gulp-myth');
 
 	return gulp
 		.src('./src/assets/css/*.css', base)
-		.pipe(when(config.isWatching, sourcemaps.init()))
-		.pipe(autoprefixer({
+		.pipe(myth({
 			browsers: ['last 2 versions'],
-			cascade: false
+			compress: true,
+			source: './src/assets/css/',
+			sourcemap: config.isWatching
 		}))
-		.pipe(minify({
-			keepBreaks: true,
-			processImport: true,
-			relativeTo: './src/assets/css/'
-		}))
-		.pipe(when(config.isWatching, sourcemaps.write()))
 		.pipe(gulp.dest('./web/'));
 });
 
 gulp.task('copy', function () {
 	return gulp
-		.src('./src/{CNAME,LICENSE,README.md,assets/img/*.jpg,favicon.ico}', base)
+		.src('./src/{CNAME,LICENSE,README.md,assets/img/**}', base)
 		.pipe(gulp.dest('./web/'));
 });
 

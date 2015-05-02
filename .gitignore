@@ -8,4 +8,5 @@ web/
 *.log
 .*.swp
 .DS_Store
+.publish
 
