@@ -7,31 +7,66 @@
 
 	<title>toga.js - clothe your code</title>
 
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Slab:700|Open+Sans:300|Josefin+Sans:100,300" />
+	<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,300italic|Josefin+Sans:300|Josefin+Slab:700" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 
 </head>
 <body>
 
-	<div class="page">
-		<div class="page-bd">
-			<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-				<path class="logo-dk" d="M264,862h156V202H218v166H68V52h888v316H806V202H604v660h156v150H264V862z"/>
-				<path class="logo-dk" d="M787.4,28C760.2,5.8,703,10.8,671.6,18.4c-55,71.8-103.6,148.4-163,216.6C454.4,297.2,386.2,360,302,374.8c11.4,191.2,29.8,381.6,6.6,572.8c103.2-61.4,268.4,109.8,419.8-25C637.4,623.6,830.8,324.8,787.4,28z"/>
-				<path class="logo-lt" d="M769,38c-12.6-9.4-58.4-10.6-81,0.2c-51.4,70.6-101,143-154.2,212c-50.6,65.6-109.8,126-181,170.2c14.8,147.2,30.4,293.6,28,441.8c64.6-1.4,129.3,29.4,194.8,44.3c27.7,6.3,59.2-6.3,70.8-40.7c-15-77-5.2-111,4.4-188.2c8.8-70.8,25.9-137.9,39.3-208.3C717.3,323.1,776.6,187.4,769,38z"/>
-				<path class="logo-md" d="M769,38c-1.8-1.2-8.5,4.7-8.9,10.2c-4.7,63.6-20.7,170.4-43.7,245.8C643,535,613.5,772.6,630,862c-13.2,15.2-35.3,23.7-62.7,23.7c-68,0-126.3-49.4-186.3-42.8c0.2,16.2,0,3.1-0.2,19.3c73.8-1.6,109,67.7,191.2,68.3c22.5,0.1,74.7-7.1,94-68.5c-15-77-13.5-103-7.8-175.6c8.8-70.8,21.2-141.2,34.6-211.6C720.2,329.2,776.6,187.4,769,38z"/>
-				<path class="logo-md" d="M696.4,76c-52.6,84.2-90.4,158-179.6,276.8c-33.6,44.8-75.6,76.4-113.4,98c18,6.8,64.6,0,106-37.8C589.8,339.6,653,152.8,696.4,76z"/>
-				<path class="logo-md" d="M575.6,410.4c-35.2,49.8-96.2,121.2-164,92.8c18.6,43,133.3,53.6,204.4-118.2c38-79.6,51.2-171.4,94.4-248C658.4,220.2,644.4,302,575.6,410.4z"/>
-				<path class="logo-md" d="M420.1,579.3c0,0,59.9,64.7,150.7-36.3c39.9-44.4,60.7-105.5,78.2-141c-19.5,61-48,189.5-135.5,219.5C440.6,646.5,420.1,579.3,420.1,579.3z"/>
-				<path class="logo-md" d="M580.9,837.1c-41.3,21.3-82.7-14.3-129.8-22.7c38.5-3.7,51.6,5.1,81.5,6.1c68.2,2.2,62.3-27.3,62.3-27.3S615.3,819.4,580.9,837.1z"/>
-			</svg>
+	<header class="box box_inv" role="banner">
+		<div class="pane pane_full">
+			<div class="pane-bd">
+				<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+					<path class="logo-fill_dk" d="M264,862h156V202H218v166H68V52h888v316H806V202H604v660h156v150H264V862z"/>
+					<path class="logo-fill_dk" d="M787.4,28C760.2,5.8,703,10.8,671.6,18.4c-55,71.8-103.6,148.4-163,216.6C454.4,297.2,386.2,360,302,374.8c11.4,191.2,29.8,381.6,6.6,572.8c103.2-61.4,268.4,109.8,419.8-25C637.4,623.6,830.8,324.8,787.4,28z"/>
+					<path class="logo-fill_lt" d="M769,38c-12.6-9.4-58.4-10.6-81,0.2c-51.4,70.6-101,143-154.2,212c-50.6,65.6-109.8,126-181,170.2c14.8,147.2,30.4,293.6,28,441.8c64.6-1.4,129.3,29.4,194.8,44.3c27.7,6.3,59.2-6.3,70.8-40.7c-15-77-5.2-111,4.4-188.2c8.8-70.8,25.9-137.9,39.3-208.3C717.3,323.1,776.6,187.4,769,38z"/>
+					<path class="logo-fill_md" d="M769,38c-1.8-1.2-8.5,4.7-8.9,10.2c-4.7,63.6-20.7,170.4-43.7,245.8C643,535,613.5,772.6,630,862c-13.2,15.2-35.3,23.7-62.7,23.7c-68,0-126.3-49.4-186.3-42.8c0.2,16.2,0,3.1-0.2,19.3c73.8-1.6,109,67.7,191.2,68.3c22.5,0.1,74.7-7.1,94-68.5c-15-77-13.5-103-7.8-175.6c8.8-70.8,21.2-141.2,34.6-211.6C720.2,329.2,776.6,187.4,769,38z"/>
+					<path class="logo-fill_md" d="M696.4,76c-52.6,84.2-90.4,158-179.6,276.8c-33.6,44.8-75.6,76.4-113.4,98c18,6.8,64.6,0,106-37.8C589.8,339.6,653,152.8,696.4,76z"/>
+					<path class="logo-fill_md" d="M575.6,410.4c-35.2,49.8-96.2,121.2-164,92.8c18.6,43,133.3,53.6,204.4-118.2c38-79.6,51.2-171.4,94.4-248C658.4,220.2,644.4,302,575.6,410.4z"/>
+					<path class="logo-fill_md" d="M420.1,579.3c0,0,59.9,64.7,150.7-36.3c39.9-44.4,60.7-105.5,78.2-141c-19.5,61-48,189.5-135.5,219.5C440.6,646.5,420.1,579.3,420.1,579.3z"/>
+					<path class="logo-fill_md" d="M580.9,837.1c-41.3,21.3-82.7-14.3-129.8-22.7c38.5-3.7,51.6,5.1,81.5,6.1c68.2,2.2,62.3-27.3,62.3-27.3S615.3,819.4,580.9,837.1z"/>
+				</svg>
 
-			<h1>toga.js</h1>
-			<p>clothe your code</p>
+				<h1 class="txt txt_lg">toga.js</h1>
+				<p class="txt txt_md">clothe your code</p>
+			</div>
 		</div>
-	</div>
 
-	<a class="github" href="http://github.com/togajs/toga">GitHub</a>
+		<p class="txt txt_sm">
+			<a class="ribbon" href="http://github.com/togajs/toga">GitHub</a>
+		</p>
+	</header>
+
+	<!--
+	<section class="box" role="main">
+		<div class="wysiwyg">
+			<h1>New Earth</h1>
+			<p>You've swallowed a planet! Aw, you're all Mr. Grumpy Face today. I'm nobody's taxi service; I'm not gonna be there to catch you every time you feel like jumping out of a spaceship. I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why. I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why.</p>
+
+			<h2>The End of Time</h2>
+			<p>I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself. I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why. I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why. All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong?</p>
+			<ul>
+				<li>It's a fez. I wear a fez now. Fezes are cool.</li>
+				<li>You know when grown-ups tell you 'everything's going to be fine' and you think they're probably lying to make you feel better?</li>
+				<li>You hit me with a cricket bat.</li>
+			</ul>
+
+			<h3>Gridlock</h3>
+			<p>Father Christmas. Santa Claus. Or as I've always known him: Jeff. Saving the world with meals on wheels. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself.</p>
+
+			<h4>The Runaway Bride</h4>
+			<p>It's art! A statement on modern society, 'Oh Ain't Modern Society Awful?'! I hate yogurt. It's just stuff with bits in. Saving the world with meals on wheels. All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong? You know how I sometimes have really brilliant ideas?</p>
+			<ol>
+				<li>You've swallowed a planet!</li>
+				<li>All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong?</li>
+				<li>You know when grown-ups tell you 'everything's going to be fine' and you think they're probably lying to make you feel better?</li>
+			</ol>
+
+			<p><small>Stop talking, brain thinking. Hush. You hate me; you want to kill me! Well, go on! Kill me! KILL ME! No&hellip; It's a thing; it's like a plan, but with more greatness.</small></p>
+		</div>
+	</section>
+	-->
 
 </body>
 </html>
