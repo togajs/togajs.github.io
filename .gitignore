@@ -1,12 +1,9 @@
-
 coverage/
-docs/
+dist/
 node_modules/
 test/actual/
-web/
 
 *.log
 .*.swp
 .DS_Store
 .publish
-

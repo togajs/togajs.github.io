@@ -1,10 +1,60 @@
+/**
+ * # Variables
+ *
+ * Site variables.
+ *
+ * @name variables
+ * @parent base
+ */
+
+/**
+ * ## Colors
+ */
+
+/**
+ * Colors to use.
+ *
+ * @sample {colors.html|hidden} colors
+ *     <div class="swatch swatch_background">Background</div>
+ *     <div class="swatch swatch_foreground">Foreground</div>
+ *     <div class="swatch swatch_primary">Primary</div>
+ *     <div class="swatch swatch_primaryDark">Primary Dark</div>
+ *     <div class="swatch swatch_accent">Accent</div>
+ *
+ * @sample {colors.css|hidden} colors
+ *     .swatch             { height: 200px; width: 200%; }
+ *     .swatch_background  { background-color: var(--color-background); }
+ *     .swatch_foreground  { background-color: var(--color-foreground); }
+ *     .swatch_primary     { background-color: var(--color-primary); }
+ *     .swatch_primaryDark { background-color: var(--color-primaryDark); }
+ *     .swatch_accent      { background-color: var(--color-accent); }
+ */
 :root {
 	--color-background: hsl(0, 0%, 100%);
 	--color-foreground: hsl(0, 0%, 20%);
 	--color-primary: hsla(110, 60%, 70%, 0.8);
-	--color-primary-dark: hsla(110, 60%, 50%, 0.8);
+	--color-primaryDark: hsla(110, 60%, 50%, 0.8);
 	--color-accent: hsla(346, 70%, 60%, 0.8);
+}
 
+/**
+ * ## Fonts
+ */
+
+/**
+ * Fonts to use.
+ *
+ * @sample {fonts.html} fonts
+ *     <div class="swatch swatch_display">Josefin Slab 700</div>
+ *     <div class="swatch swatch_header">Josefin Slab 300</div>
+ *     <div class="swatch swatch_text">Lato 300</div>
+ *
+ * @sample {fonts.css} fonts
+ *     .swatch_display { font: var(--font-display-weight) 1em/1 var(--font-display); }
+ *     .swatch_header  { font: var(--font-header-weight) 1em/1 var(--font-header); }
+ *     .swatch_text    { font: var(--font-text-weight) 1em/1 var(--font-text); }
+ */
+:root {
 	--font-display: 'Josefin Slab', arial, sans-serif;
 	--font-display-weight: 700;
 	--font-header: 'Josefin Sans', arial, sans-serif;
