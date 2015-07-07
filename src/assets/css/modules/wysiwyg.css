@@ -20,7 +20,7 @@
 .wysiwyg h4,
 .wysiwyg h5,
 .wysiwyg h6 {
-	color: var(--color-primary-dark);
+	color: var(--color-primaryDark);
 	font-family: var(--font-header);
 	font-size: 2em;
 	font-weight: var(--font-header-weight);
